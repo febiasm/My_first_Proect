@@ -73,7 +73,7 @@ padding-top: 100px;
 }.container{
 
 	position: relative;
-	width:1700px;
+	width:1905px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -156,7 +156,7 @@ h1 {
     
 }
 h2 {
-    padding-left: 100px;
+    padding-left: 200px;
     padding-top: 40px;
 }
 ul li {
