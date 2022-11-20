@@ -1,5 +1,6 @@
 body{
-    background-color: dimgray;
+    background-color: antiquewhite;
+    
 }
 *{
     padding: 0;
@@ -11,18 +12,20 @@ body {
     font-family: ;
 }
 nav {
+    background-image: url(pictures/j0uabqx.png);
     background-color: rgb(226, 64, 10);
     height: 80px;
     width: 100%;
 }
 label {
     color: white;
+    font-style: italic;
     font-size: 35px;
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
 
-    /* change padding colour and font size of logo */ 
+    /* change padding, colour and font size of logo */ 
 }
 nav ul {
     float: right;
@@ -50,5 +53,144 @@ a.hover, a:hover {
     background:burlywood ;
     transition: .7s ;
 
-    /*after effect for navigation bar text*/
+    /*hover effect for navigation bar text*/
+}
+
+#pic{
+   width: 1000px;
+   height: 500px;
+   
+padding-left: 150px;
+padding-right: ;
+padding-top: 100px;
+}
+*
+{
+    margin : 0;
+    padding: 0;
+    font-family: ;
+    
+}.container{
+
+	position: relative;
+	width:1700px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 5px;
+	margin-top: 3%;
+}
+
+.container .card{
+	width:308px;
+	position: relative;
+	height: 400px;
+	background: #f0f0f0;
+	margin:30px 10px;
+	padding: 20px 15px;
+	display:flex;
+	flex-direction: column;
+	box-shadow: 0.5px 10px #e6e6e6;
+	transition:0.3s ease-in-out;
+	margin-top: 5%;
+}
+.container .card .imgBx{
+	position: relative;
+	width:260px;
+	height: 260px;
+	top: -60px;
+	left:20px;
+	box-shadow: 0 5px 20px rbga (0,0,0,1.2);
+
+}
+
+.container .card .imgBx img
+{
+	max-width: 100%;
+	border-radius: 10px;
+}
+
+.imgBx:hover img{
+	transform: scale(1.1);
+}
+
+.heading {
+    font-size: 100px;
+    text-align: center;
+    font-style: bold;
+    color: purple;
+}
+.text{
+    text-align: center;
+    font-size: 30px;
+}
+
+.side{
+    
+    
+    
+    
+}
+.pic {
+    width: 10px;
+    height: 10px;
+    
+}
+h1 {
+    font-style: italic;
+    font-family:inherit;
+}
+.video {
+    
+    padding: 100px;
+} 
+
+.addict {
+    font-size: 40px;
+    text-align: center;
+    font-style: bold;
+    color: rgb(34, 30, 34);
+    padding-left: 90px;
+    padding-top: 100px;
+    
+}
+h2 {
+    padding-left: 100px;
+    padding-top: 40px;
+}
+ul li {
+    display: inline-block;
+    /* changed formating of text inside <li>*/
+    line-height: 80px;
+    margin: 0 200px;
+    /* changed spacing between each text */
+}
+ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    padding: 7px 13px;
+}
+ul {
+    float: right;
+    /*moves text in ul to the right */
+
+    margin-right: 20px;
+}
+   
+   footer{
+    background-image: url();
+    background-color:rgb(33, 33, 73);
+    height: 80px;
+    width: 100%;
+}
+h4 {
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 80px;
+    padding: 0 0px;
+    font-weight: bold;
+
+    /* change padding, colour and font size of logo */ 
 }
